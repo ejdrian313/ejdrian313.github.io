@@ -2,7 +2,6 @@
 layout: post
 title:  "Refactoring huge if-else in flutter widget."
 date:   2020-09-20 11:35:49 +0200
-categories: flutter
 ---
 ### Backgrounds:
 We got a widget it is actually a page called dashboard. We build this dashboard based of JSON data we got from web API. 
