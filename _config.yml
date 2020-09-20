@@ -21,13 +21,14 @@
 title: Thoughts on software
 email: adriankujawski313@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  You are reading Adrian Kujawski thought on software.
+  You are reading Adrian Kujawski thoughts on software.
   Passionate about clean code & making business requirements live.
   Feel free to contact with me.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "ejdrian313.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  ejdrian313
+linkedin_username: adriankujawski
 
 # Build settings
 theme: minima

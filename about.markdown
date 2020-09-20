@@ -4,15 +4,21 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# I am a software developer.  
+Daily working on flutter apps. (Some of theme have ~2k user daily, more than 20k downloads from play store & app store)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+### I am familiar with technology agnostic approaches:
+  
+- Clean code, TDD, SOLID, KISS  
+- Design and architecture patterns
+  
+### then with specyfic technologies:
+- Flutter, Dart
+- Kotlin/Java, Android SDK
+- C#, .NET Core >2
+- NoSQL Databases like MongoDB, Cosmos DB
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### You can find some of my repos at [GitHub][my-repo]
+### PM me on [LinkedIn](https://www.linkedin.com/in/adriankujawski/)  
 
-
-[jekyll-organization]: https://github.com/jekyll
+[my-repo]: https://github.com/ejdrian313
