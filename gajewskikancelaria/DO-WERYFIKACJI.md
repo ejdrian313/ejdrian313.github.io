@@ -54,8 +54,39 @@ Poniżej pełna lista w jednym miejscu.
 - [ ] Obowiązki zgłoszeniowe do CRBR i terminy
 - [ ] Przesłanki wyłączenia odpowiedzialności z art. 299 KSH
 
-## Podatki (fala 2)
-- [ ] Rozgraniczenie: co może radca prawny, a co jest zastrzeżone dla doradców podatkowych — **ta sekcja wymaga decyzji Adriana co do sposobu opisania zakresu usług**
+## Prawo pracy
+- [ ] Terminy 21 dni na odwołanie do sądu pracy (wypowiedzenie i rozwiązanie bez wypowiedzenia)
+- [ ] Termin 1 miesiąca dla pracodawcy na rozwiązanie dyscyplinarne
+- [ ] **Pełna siatka okresów wypowiedzenia** umowy na czas nieokreślony wg stażu
+- [ ] **Progi zwolnień grupowych** — próg zatrudnienia u pracodawcy i liczby zwalnianych w 30 dni
+- [ ] Przedawnienie roszczeń ze stosunku pracy (3 lata)
+- [ ] Termin na wniosek o sprostowanie świadectwa pracy
+- [ ] Progi liczby zatrudnionych, od których obowiązkowy jest regulamin pracy i wynagradzania
+
+## Spory sądowe
+- [ ] **Tabela opłat stałych od pozwu** przy niższych wartościach sporu
+- [ ] Minimum i maksimum opłaty od pozwu
+- [ ] Opłata od wniosku o uzasadnienie wyroku
+- [ ] Termin tygodnia na wniosek o uzasadnienie i 2 tygodni na apelację
+- [ ] Zwrot części opłaty przy zawarciu ugody — warunki i wysokość
+
+## Podatki
+- [ ] Termin 14 dni na odwołanie od decyzji podatkowej
+- [ ] Termin 30 dni na skargę do WSA i skargę kasacyjną do NSA
+- [ ] Termin na zastrzeżenia do protokołu kontroli
+- [ ] **Opłata od wniosku o interpretację indywidualną** i termin jej wydania
+- [ ] Przedawnienie zobowiązania podatkowego (5 lat) i przesłanki zawieszenia
+- [ ] Wpis od skargi do WSA
+- [ ] Przesłanki odpowiedzialności członków zarządu za zaległości podatkowe
+- [ ] **Rozgraniczenie: co może radca prawny, a co jest zastrzeżone dla doradców podatkowych** — sekcja „Zakres i jego granice" wymaga akceptacji Adriana; napisana ostrożnie, do korekty zgodnie z jego praktyką
+
+## Odszkodowania
+- [ ] Termin 30 dni na wypłatę i zasady jego wydłużenia, z limitem maksymalnym
+- [ ] Termin na odpowiedź na reklamację
+- [ ] Przedawnienie roszczeń z czynu niedozwolonego (3 lata / 10 lat)
+- [ ] **Dłuższy termin przedawnienia przy szkodzie z przestępstwa**
+- [ ] Przedawnienie roszczeń z umowy ubezpieczenia
+- [ ] Czy opisy dot. ubytku wartości handlowej, pojazdu zastępczego i braku obowiązku naprawy odpowiadają aktualnej linii orzeczniczej
 
 ## Kwestie etyki zawodowej — do decyzji Adriana
 - [ ] Czy podajemy jakiekolwiek widełki cenowe (obecnie: nie podajemy)

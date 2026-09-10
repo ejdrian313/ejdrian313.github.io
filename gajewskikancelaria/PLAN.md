@@ -471,4 +471,13 @@ Teksty w Markdownie — łatwo wkleić do WordPressa, łatwo dać do czytania Ad
 | `robots.txt` | gotowe |
 | `schema/organizacja-i-osoba.json` + `README.md` | gotowe |
 | `DO-WERYFIKACJI.md` | lista kontrolna dla klienta |
-| Fala 2: obsługa firm, prawo pracy, podatki, spory, odszkodowania | do napisania |
+| `specjalizacje/index.md` (hub) | gotowe |
+| `specjalizacje/obsluga-prawna-firm.md` | gotowe |
+| `specjalizacje/prawo-pracy.md` | gotowe |
+| `specjalizacje/spory-sadowe.md` | gotowe |
+| `specjalizacje/podatki.md` | gotowe |
+| `specjalizacje/odszkodowania.md` | gotowe |
+
+**Komplet 9 specjalizacji + hub + FAQ + O mnie + zasięg napisany.**
+Pozostaje: podmiana `[MIASTO]` i danych kancelarii, weryfikacja merytoryczna
+(`DO-WERYFIKACJI.md`), wdrożenie w WordPressie, GBP, analityka i baseline promptów.
