@@ -1,0 +1,862 @@
+<title>Plan treści Kancelarii Gajewski</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#f2f3f5;
+  --surface:#ffffff;
+  --surface-2:#e9ebef;
+  --ink:#16202e;
+  --ink-2:#3d4a5c;
+  --muted:#66748a;
+  --rule:#d4d8df;
+  --rule-strong:#b3bac6;
+  --accent:#7a2e39;
+  --accent-soft:#f3e8e9;
+  --prompt-rule:#e0c9cc;
+  --flag:#8a6017;
+  --flag-soft:#f6eddc;
+  --ok:#2f5d4a;
+  --ok-soft:#e4efe9;
+  --shadow:0 1px 2px rgba(22,32,46,.06),0 8px 24px -16px rgba(22,32,46,.28);
+  --serif:"Spectral",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#12171f;
+    --surface:#1a212b;
+    --surface-2:#222b37;
+    --ink:#e7eaef;
+    --ink-2:#bcc5d2;
+    --muted:#8896a8;
+    --rule:#2c3643;
+    --rule-strong:#3d4a5a;
+    --accent:#d08f98;
+    --accent-soft:#2e2026;
+    --prompt-rule:#4a3840;
+    --flag:#d9ab5e;
+    --flag-soft:#2b2418;
+    --ok:#8cc4ac;
+    --ok-soft:#1b2925;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -16px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#12171f;
+  --surface:#1a212b;
+  --surface-2:#222b37;
+  --ink:#e7eaef;
+  --ink-2:#bcc5d2;
+  --muted:#8896a8;
+  --rule:#2c3643;
+  --rule-strong:#3d4a5a;
+  --accent:#d08f98;
+  --accent-soft:#2e2026;
+  --prompt-rule:#4a3840;
+  --flag:#d9ab5e;
+  --flag-soft:#2b2418;
+  --ok:#8cc4ac;
+  --ok-soft:#1b2925;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -16px rgba(0,0,0,.8);
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--ground);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:15px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:0 72px}
+
+/* ---------- masthead ---------- */
+.masthead{border-bottom:2px solid var(--ink);padding-block:36px 20px;margin-bottom:8px}
+.stamp{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);border:1px solid var(--accent);border-radius:2px;
+  padding:5px 10px;margin-bottom:22px;
+}
+.stamp::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent)}
+h1{
+  font-family:var(--serif);font-weight:600;font-size:clamp(30px,5.4vw,50px);
+  line-height:1.1;letter-spacing:-.015em;margin:0 0 14px;text-wrap:balance;
+}
+.standfirst{
+  font-family:var(--serif);font-size:clamp(16px,2.2vw,19px);line-height:1.55;
+  color:var(--ink-2);max-width:62ch;margin:0;
+}
+.meta-row{
+  display:flex;flex-wrap:wrap;gap:8px 28px;margin-top:26px;
+  font-family:var(--mono);font-size:11.5px;color:var(--muted);
+}
+.meta-row b{color:var(--ink-2);font-weight:500}
+
+/* ---------- layout ---------- */
+.cols{display:grid;grid-template-columns:196px 1fr;gap:56px;align-items:start;margin-top:44px}
+@media (max-width:900px){.cols{grid-template-columns:1fr;gap:0}}
+
+nav.toc{position:sticky;top:24px}
+@media (max-width:900px){nav.toc{position:static;margin-bottom:40px;padding-bottom:26px;border-bottom:1px solid var(--rule)}}
+.toc-label{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--muted);padding-bottom:10px;margin-bottom:12px;border-bottom:1px solid var(--rule);
+}
+nav.toc ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+nav.toc a{
+  display:flex;gap:10px;text-decoration:none;color:var(--ink-2);
+  font-size:13.5px;padding:5px 8px;border-radius:3px;border-left:2px solid transparent;
+}
+nav.toc a:hover{background:var(--surface-2);color:var(--ink);border-left-color:var(--accent)}
+nav.toc a:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+nav.toc .num{font-family:var(--mono);font-size:11px;color:var(--muted);padding-top:2px}
+
+main{min-width:0;display:flex;flex-direction:column;gap:56px}
+section{scroll-margin-top:20px}
+h2{
+  font-family:var(--serif);font-weight:600;font-size:clamp(22px,3.2vw,28px);
+  line-height:1.2;margin:0 0 6px;letter-spacing:-.01em;text-wrap:balance;
+}
+.sec-head{border-bottom:1px solid var(--rule-strong);padding-bottom:14px;margin-bottom:26px}
+.sec-kicker{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--accent);margin-bottom:9px;
+}
+.sec-head p{margin:8px 0 0;color:var(--ink-2);max-width:64ch}
+p{margin:0 0 14px;max-width:66ch}
+main p:last-child{margin-bottom:0}
+a{color:var(--accent)}
+strong{font-weight:600}
+code{font-family:var(--mono);font-size:.88em;background:var(--surface-2);padding:1px 5px;border-radius:3px}
+
+/* ---------- action list ---------- */
+.actions{display:flex;flex-direction:column;gap:0;background:var(--surface);border:1px solid var(--rule);border-radius:4px;box-shadow:var(--shadow);overflow:hidden}
+.action{display:grid;grid-template-columns:34px 1fr;gap:16px;padding:16px 20px;border-bottom:1px solid var(--rule)}
+.action:last-child{border-bottom:none}
+.action .idx{font-family:var(--mono);font-size:12px;color:var(--muted);padding-top:2px;font-variant-numeric:tabular-nums}
+.action h3{font-family:var(--sans);font-size:15px;font-weight:600;margin:0 0 3px}
+.action p{margin:0;font-size:13.5px;color:var(--muted);max-width:58ch}
+.action .why{display:block;margin-top:5px;font-family:var(--mono);font-size:11px;color:var(--flag)}
+
+/* ---------- structure list ---------- */
+.tree{
+  background:var(--surface);border:1px solid var(--rule);border-radius:4px;
+  padding:22px 24px;font-family:var(--mono);font-size:12.5px;line-height:2.05;
+  overflow-x:auto;box-shadow:var(--shadow);
+}
+.tree .u{color:var(--muted)}
+.tree .n{color:var(--ink)}
+.tree .tag{
+  font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ok);background:var(--ok-soft);padding:1px 6px;border-radius:2px;margin-left:8px;
+}
+.tree .tag.todo{color:var(--flag);background:var(--flag-soft)}
+
+/* ---------- page cards ---------- */
+.cards{display:flex;flex-direction:column;gap:14px}
+details.card{
+  background:var(--surface);border:1px solid var(--rule);border-radius:4px;
+  box-shadow:var(--shadow);overflow:hidden;
+}
+details.card[open]{border-color:var(--rule-strong)}
+summary{
+  list-style:none;cursor:pointer;padding:15px 20px;
+  display:grid;grid-template-columns:1fr auto;gap:6px 18px;align-items:baseline;
+}
+summary::-webkit-details-marker{display:none}
+summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+summary:hover{background:var(--surface-2)}
+.card-name{font-family:var(--serif);font-size:18px;font-weight:600;line-height:1.3}
+.card-url{font-family:var(--mono);font-size:11.5px;color:var(--muted);grid-column:1;word-break:break-all}
+.card-count{
+  font-family:var(--mono);font-size:11px;color:var(--muted);
+  grid-column:2;grid-row:1/3;align-self:center;white-space:nowrap;font-variant-numeric:tabular-nums;
+}
+.card-body{padding:4px 20px 22px;border-top:1px solid var(--rule);margin-top:2px}
+.field{margin-top:18px}
+.field-label{
+  font-family:var(--mono);font-size:10px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:6px;
+}
+.field-val{font-size:13.5px;color:var(--ink-2);max-width:70ch}
+.field-val.mono{font-family:var(--mono);font-size:12px}
+.outline{list-style:none;margin:0;padding:0;columns:2;column-gap:32px}
+@media (max-width:640px){.outline{columns:1}}
+.outline li{
+  font-size:13px;color:var(--ink-2);padding:3px 0 3px 16px;position:relative;
+  break-inside:avoid;
+}
+.outline li::before{
+  content:"";position:absolute;left:0;top:12px;width:7px;height:1px;background:var(--rule-strong);
+}
+.prompts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.prompts li{
+  font-family:var(--serif);font-style:italic;font-size:14px;color:var(--ink-2);
+  padding-left:16px;border-left:2px solid var(--prompt-rule);
+}
+
+/* ---------- callout ---------- */
+.callout{
+  background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--accent);
+  border-radius:0 4px 4px 0;padding:20px 24px;box-shadow:var(--shadow);
+}
+.callout.flag{border-left-color:var(--flag)}
+.callout h3{font-family:var(--serif);font-size:17px;font-weight:600;margin:0 0 10px}
+.callout p:last-child{margin-bottom:0}
+.reasons{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-direction:column;gap:14px}
+.reasons li{padding-left:26px;position:relative;font-size:14px;color:var(--ink-2);max-width:64ch}
+.reasons .rn{
+  position:absolute;left:0;top:1px;font-family:var(--mono);font-size:11px;
+  color:var(--accent);font-variant-numeric:tabular-nums;
+}
+
+/* ---------- verify table ---------- */
+.tablewrap{overflow-x:auto;border:1px solid var(--rule);border-radius:4px;background:var(--surface);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;min-width:520px}
+th,td{text-align:left;padding:11px 18px;border-bottom:1px solid var(--rule);font-size:13.5px;vertical-align:top}
+th{
+  font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);font-weight:400;background:var(--surface-2);
+}
+tbody tr:last-child td{border-bottom:none}
+td.area{font-weight:500;white-space:nowrap}
+td.items{color:var(--ink-2)}
+.annot{
+  font-family:var(--mono);font-size:11px;color:var(--flag);background:var(--flag-soft);
+  padding:1px 5px;border-radius:2px;white-space:nowrap;
+}
+
+/* ---------- closing ---------- */
+.next{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:4px;overflow:hidden}
+.next > div{background:var(--surface);padding:20px}
+.next h3{font-family:var(--sans);font-size:13px;font-weight:600;margin:0 0 6px;letter-spacing:.01em}
+.next p{font-size:13px;color:var(--muted);margin:0;max-width:none}
+.next .when{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:9px}
+
+footer{
+  margin-top:64px;padding-top:22px;border-top:1px solid var(--rule);
+  font-family:var(--mono);font-size:11.5px;color:var(--muted);line-height:1.8;
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="masthead">
+  <div class="stamp">Wersja robocza — do przeglądu</div>
+  <h1>Plan treści Kancelarii&nbsp;Gajewski</h1>
+  <p class="standfirst">Komplet treści przygotowanych pod widoczność w wyszukiwarkach i w asystentach AI. Dokument roboczy do akceptacji — żadna z tych treści nie jest opublikowana.</p>
+  <div class="meta-row">
+    <span><b>Zakres</b> 13 stron · 13 400 słów</span>
+    <span><b>Etap</b> przed weryfikacją merytoryczną</span>
+    <span><b>Stan na</b> 10.09.2026</span>
+  </div>
+</header>
+
+<div class="cols">
+
+<nav class="toc">
+  <div class="toc-label">Spis treści</div>
+  <ol>
+    <li><a href="#potrzebne"><span class="num">1</span><span>Czego potrzebuję</span></a></li>
+    <li><a href="#struktura"><span class="num">2</span><span>Struktura serwisu</span></a></li>
+    <li><a href="#strony"><span class="num">3</span><span>Karty stron</span></a></li>
+    <li><a href="#miasta"><span class="num">4</span><span>Kwestia miast</span></a></li>
+    <li><a href="#weryfikacja"><span class="num">5</span><span>Do weryfikacji</span></a></li>
+    <li><a href="#dalej"><span class="num">6</span><span>Co dalej</span></a></li>
+  </ol>
+</nav>
+
+<main>
+
+<!-- 1 -->
+<section id="potrzebne">
+  <div class="sec-head">
+    <div class="sec-kicker">Sekcja 1</div>
+    <h2>Czego potrzebuję, żeby to ruszyło</h2>
+    <p>Treści są napisane. Poniższe dane blokują publikację — bez nich strony nie da się wdrożyć, bo występują w każdym pliku.</p>
+  </div>
+  <div class="actions">
+    <div class="action">
+      <div class="idx">01</div>
+      <div>
+        <h3>Miasto i pełny adres biura</h3>
+        <p>W treściach siedzi znacznik <code>[MIASTO]</code> — jedna podmiana globalna. Adres z kodem pocztowym potrzebny do wizytówki Google i danych strukturalnych.</p>
+        <span class="why">Blokuje: całą warstwę lokalną, wizytówkę, dane strukturalne</span>
+      </div>
+    </div>
+    <div class="action">
+      <div class="idx">02</div>
+      <div>
+        <h3>Numer wpisu na listę radców prawnych i rok wpisu</h3>
+        <p>OIRP Opole. To najmocniejszy pojedynczy sygnał wiarygodności, jaki może mieć strona kancelarii — model potrafi go zweryfikować w rejestrze.</p>
+        <span class="why">Blokuje: stronę „O mnie", dane strukturalne</span>
+      </div>
+    </div>
+    <div class="action">
+      <div class="idx">03</div>
+      <div>
+        <h3>NIP oraz adres profilu LinkedIn</h3>
+        <p>Oba trafiają do danych strukturalnych jako powiązania potwierdzające tożsamość podmiotu.</p>
+      </div>
+    </div>
+    <div class="action">
+      <div class="idx">04</div>
+      <div>
+        <h3>Branże spółek, w których pracowałeś in-house</h3>
+        <p>Bez nazw, jeśli obejmuje je poufność — wystarczy „energetyka, produkcja". Zastępuje sformułowanie „przez lata zdobywałem doświadczenie", które nie mówi nic.</p>
+      </div>
+    </div>
+    <div class="action">
+      <div class="idx">05</div>
+      <div>
+        <h3>Weryfikacja merytoryczna</h3>
+        <p>Opłaty urzędowe i część terminów zostawiłem jako znaczniki <span class="annot">[DO POTWIERDZENIA]</span> zamiast wpisywać je z pamięci. Zestawienie w sekcji 5.</p>
+        <span class="why">Blokuje: publikację każdej strony z tabelą terminów</span>
+      </div>
+    </div>
+    <div class="action">
+      <div class="idx">06</div>
+      <div>
+        <h3>Decyzja: podajemy widełki cenowe czy nie</h3>
+        <p>Domyślnie nie podaję żadnych kwot za usługi kancelarii — tylko opłaty urzędowe, które i tak są jawne. Do zmiany, jeśli uznasz inaczej.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 -->
+<section id="struktura">
+  <div class="sec-head">
+    <div class="sec-kicker">Sekcja 2</div>
+    <h2>Struktura serwisu</h2>
+    <p>Dziś dziewięć specjalizacji to dziewięć akapitów po dwa zdania na jednej stronie. Docelowo każda dostaje własny adres i pełny opis procedury.</p>
+  </div>
+  <div class="tree">
+<span class="u">/</span><span class="tag">bez zmian w układzie</span><br>
+<span class="u">/</span><span class="n">o-mnie/</span><span class="tag">gotowe</span><br>
+<span class="u">/</span><span class="n">specjalizacje/</span><span class="tag">gotowe</span><br>
+<span class="u">&nbsp;&nbsp;├─ /</span><span class="n">obsluga-prawna-firm/</span><span class="tag">gotowe</span><br>
+<span class="u">&nbsp;&nbsp;├─ /</span><span class="n">prawo-spolek/</span><span class="tag">gotowe</span><br>
+<span class="u">&nbsp;&nbsp;├─ /</span><span class="n">ochrona-danych-osobowych/</span><span class="tag">gotowe</span><br>
+<span class="u">&nbsp;&nbsp;├─ /</span><span class="n">prawo-wlasnosci-intelektualnej/</span><span class="tag">gotowe</span><br>
+<span class="u">&nbsp;&nbsp;├─ /</span><span class="n">windykacja-naleznosci/</span><span class="tag">gotowe</span><br>
+<span class="u">&nbsp;&nbsp;├─ /</span><span class="n">prawo-pracy/</span><span class="tag">gotowe</span><br>
+<span class="u">&nbsp;&nbsp;├─ /</span><span class="n">podatki/</span><span class="tag">gotowe</span><br>
+<span class="u">&nbsp;&nbsp;├─ /</span><span class="n">spory-sadowe/</span><span class="tag">gotowe</span><br>
+<span class="u">&nbsp;&nbsp;└─ /</span><span class="n">odszkodowania/</span><span class="tag">gotowe</span><br>
+<span class="u">/</span><span class="n">faq/</span><span class="tag">gotowe</span><br>
+<span class="u">/</span><span class="n">zasieg/</span><span class="tag">gotowe</span><br>
+<span class="u">/</span><span class="n">kontakt/</span><span class="tag todo">czeka na adres</span><br>
+<span class="u">/</span><span class="n">blog/</span><span class="tag todo">faza druga</span>
+  </div>
+</section>
+
+<!-- 3 -->
+<section id="strony">
+  <div class="sec-head">
+    <div class="sec-kicker">Sekcja 3</div>
+    <h2>Karty stron</h2>
+    <p>Rozwiń dowolną pozycję, żeby zobaczyć adres, tytuł w wynikach wyszukiwania, strukturę sekcji i pytania, pod które strona jest pisana.</p>
+  </div>
+  <div class="cards">
+
+    <details class="card" open>
+      <summary>
+        <span class="card-name">Ochrona danych osobowych (RODO)</span>
+        <span class="card-count">1 449 słów · 7 pytań</span>
+        <span class="card-url">/specjalizacje/ochrona-danych-osobowych/</span>
+      </summary>
+      <div class="card-body">
+        <div class="field">
+          <div class="field-label">Tytuł w wynikach</div>
+          <div class="field-val mono">Ochrona danych osobowych i RODO dla firm — [MIASTO] | radca prawny</div>
+        </div>
+        <div class="field">
+          <div class="field-label">Struktura</div>
+          <ul class="outline">
+            <li>Dla kogo jest ta usługa</li>
+            <li>Zakres usług — audyt, dokumentacja, wdrożenie, wsparcie IOD</li>
+            <li>Audyt RODO krok po kroku, z czasem każdego etapu</li>
+            <li>Kiedy trzeba powołać Inspektora Ochrony Danych</li>
+            <li>Naruszenie ochrony danych — 72 godziny</li>
+            <li>Kontrola UODO — jak przebiega</li>
+            <li>Terminy i sankcje</li>
+            <li>Siedem najczęstszych pytań</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Pytania, pod które pisana jest strona</div>
+          <ul class="prompts">
+            <li>czy moja firma musi powołać inspektora ochrony danych</li>
+            <li>ile kosztuje audyt RODO w małej firmie</li>
+            <li>co zrobić po wycieku danych w firmie</li>
+            <li>jak przygotować się do kontroli UODO</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Dlaczego priorytet</div>
+          <div class="field-val">Powtarzalna usługa o wysokiej marży, wprost w Twoich specjalizacjach, a konkurencja w regionie opisuje ją wyłącznie hasłami. Najkrótsza droga do bycia cytowanym.</div>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <span class="card-name">Prawo własności intelektualnej</span>
+        <span class="card-count">1 316 słów · 7 pytań</span>
+        <span class="card-url">/specjalizacje/prawo-wlasnosci-intelektualnej/</span>
+      </summary>
+      <div class="card-body">
+        <div class="field">
+          <div class="field-label">Tytuł w wynikach</div>
+          <div class="field-val mono">Prawo własności intelektualnej — znaki towarowe, prawa autorskie | [MIASTO]</div>
+        </div>
+        <div class="field">
+          <div class="field-label">Struktura</div>
+          <ul class="outline">
+            <li>Dla kogo jest ta usługa</li>
+            <li>Znak towarowy — od badania do rejestracji</li>
+            <li>Gdzie rejestrować: UPRP, EUIPO czy WIPO</li>
+            <li>Przeniesienie a licencja, pola eksploatacji</li>
+            <li>Prawa zależne i kod od zleceniobiorcy</li>
+            <li>Naruszenie praw — od wezwania do pozwu</li>
+            <li>Opłaty i terminy</li>
+            <li>Siedem najczęstszych pytań</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Pytania, pod które pisana jest strona</div>
+          <ul class="prompts">
+            <li>jak zastrzec nazwę firmy jako znak towarowy</li>
+            <li>kto ma prawa autorskie do kodu napisanego przez freelancera</li>
+            <li>czym różni się licencja od przeniesienia praw autorskich</li>
+            <li>co zrobić gdy ktoś używa mojej nazwy firmy</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <span class="card-name">Windykacja należności</span>
+        <span class="card-count">1 251 słów · 7 pytań</span>
+        <span class="card-url">/specjalizacje/windykacja-naleznosci/</span>
+      </summary>
+      <div class="card-body">
+        <div class="field">
+          <div class="field-label">Tytuł w wynikach</div>
+          <div class="field-val mono">Windykacja należności dla firm — [MIASTO] | radca prawny</div>
+        </div>
+        <div class="field">
+          <div class="field-label">Struktura</div>
+          <ul class="outline">
+            <li>Dla kogo jest ta usługa</li>
+            <li>Etap przedsądowy — weryfikacja dłużnika, wezwanie, ugoda</li>
+            <li>Etap sądowy — upominawcze, nakazowe, EPU</li>
+            <li>Egzekucja komornicza</li>
+            <li>Odsetki i rekompensata w transakcjach handlowych</li>
+            <li>Kiedy windykacja się nie opłaca</li>
+            <li>Terminy i koszty</li>
+            <li>Siedem najczęstszych pytań</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Pytania, pod które pisana jest strona</div>
+          <ul class="prompts">
+            <li>co zrobić gdy kontrahent nie płaci faktury</li>
+            <li>kiedy przedawnia się faktura między firmami</li>
+            <li>czy warto iść do sądu o 10 tysięcy złotych</li>
+            <li>ile trwa uzyskanie nakazu zapłaty</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Uwaga</div>
+          <div class="field-val">Sekcja „kiedy windykacja się nie opłaca" jest celowa. Strona, która odradza sprawę bez szans, buduje zaufanie mocniej niż każde zapewnienie o skuteczności — i jest jedną z rzeczy, które modele wychwytują jako sygnał rzetelności.</div>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <span class="card-name">Prawo spółek</span>
+        <span class="card-count">1 382 słowa · 7 pytań</span>
+        <span class="card-url">/specjalizacje/prawo-spolek/</span>
+      </summary>
+      <div class="card-body">
+        <div class="field">
+          <div class="field-label">Tytuł w wynikach</div>
+          <div class="field-val mono">Prawo spółek — zakładanie i obsługa spółek | [MIASTO]</div>
+        </div>
+        <div class="field">
+          <div class="field-label">Struktura</div>
+          <ul class="outline">
+            <li>Dla kogo jest ta usługa</li>
+            <li>Wybór formy prawnej — tabela porównawcza</li>
+            <li>S24 czy notariusz</li>
+            <li>Umowa spółki a umowa wspólników</li>
+            <li>Bieżąca obsługa korporacyjna</li>
+            <li>Przekształcenia i likwidacja</li>
+            <li>Odpowiedzialność członków zarządu (art. 299 KSH)</li>
+            <li>Terminy i koszty</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Pytania, pod które pisana jest strona</div>
+          <ul class="prompts">
+            <li>ile kosztuje założenie spółki z o.o.</li>
+            <li>czy przekształcić działalność w spółkę z o.o.</li>
+            <li>za co odpowiada członek zarządu spółki z o.o.</li>
+            <li>co powinna zawierać umowa wspólników</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <span class="card-name">Stała obsługa prawna firm</span>
+        <span class="card-count">998 słów · 7 pytań</span>
+        <span class="card-url">/specjalizacje/obsluga-prawna-firm/</span>
+      </summary>
+      <div class="card-body">
+        <div class="field">
+          <div class="field-label">Rola strony</div>
+          <div class="field-val">Strona-parasol. Linkuje do wszystkich pozostałych ośmiu i jest głównym miejscem, w którym opisany jest model abonamentowy. Krótsza od pozostałych, bo jej zadaniem jest rozdzielać ruch, a nie konkurować z nimi treścią.</div>
+        </div>
+        <div class="field">
+          <div class="field-label">Struktura</div>
+          <ul class="outline">
+            <li>Dla kogo jest ta usługa</li>
+            <li>Co obejmuje stała obsługa</li>
+            <li>Trzy modele współpracy</li>
+            <li>Pierwsze tygodnie — przegląd i lista ryzyk</li>
+            <li>Obsługa w języku angielskim</li>
+            <li>Współpraca ze specjalistami</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Pytania, pod które pisana jest strona</div>
+          <ul class="prompts">
+            <li>ile kosztuje stała obsługa prawna firmy</li>
+            <li>czy mała firma potrzebuje prawnika na stałe</li>
+            <li>obsługa prawna spółki w języku angielskim</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <span class="card-name">Prawo pracy</span>
+        <span class="card-count">1 246 słów · 7 pytań</span>
+        <span class="card-url">/specjalizacje/prawo-pracy/</span>
+      </summary>
+      <div class="card-body">
+        <div class="field">
+          <div class="field-label">Struktura</div>
+          <ul class="outline">
+            <li>Dla kogo — dwie ścieżki: pracodawca i pracownik</li>
+            <li>Dokumentacja i regulaminy</li>
+            <li>Rozwiązanie umowy — tryby i terminy</li>
+            <li>Umowa B2B a stosunek pracy</li>
+            <li>Restrukturyzacja i zwolnienia grupowe</li>
+            <li>Spory przed sądem pracy</li>
+            <li>Terminy</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Pytania, pod które pisana jest strona</div>
+          <ul class="prompts">
+            <li>ile mam czasu na odwołanie od wypowiedzenia</li>
+            <li>czy umowa B2B może zostać uznana za umowę o pracę</li>
+            <li>czy pracodawca musi podać przyczynę wypowiedzenia</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Do Twojej decyzji</div>
+          <div class="field-val">Strona obsługuje obie strony sporu, z wyraźnym zastrzeżeniem, że nigdy w tej samej sprawie i że konflikt interesów sprawdzam przed przyjęciem zlecenia. Jeśli wolisz komunikować się wyłącznie do pracodawców — wytnę połowę i strona będzie ostrzejsza.</div>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <span class="card-name">Spory sądowe</span>
+        <span class="card-count">1 160 słów · 7 pytań</span>
+        <span class="card-url">/specjalizacje/spory-sadowe/</span>
+      </summary>
+      <div class="card-body">
+        <div class="field">
+          <div class="field-label">Struktura</div>
+          <ul class="outline">
+            <li>Rodzaje spraw</li>
+            <li>Zanim złożymy pozew — ocena szans i rachunek</li>
+            <li>Jak przebiega proces, etap po etapie</li>
+            <li>Zabezpieczenie roszczenia</li>
+            <li>Mediacja i ugoda</li>
+            <li>Terminy i koszty</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Pytania, pod które pisana jest strona</div>
+          <ul class="prompts">
+            <li>ile trwa sprawa cywilna w sądzie</li>
+            <li>kto płaci koszty przegranej sprawy</li>
+            <li>czy mogę zablokować majątek dłużnika przed wyrokiem</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <span class="card-name">Podatki</span>
+        <span class="card-count">1 197 słów · 7 pytań</span>
+        <span class="card-url">/specjalizacje/podatki/</span>
+      </summary>
+      <div class="card-body">
+        <div class="field">
+          <div class="field-label">Wymaga Twojej akceptacji</div>
+          <div class="field-val">Strona zawiera sekcję „Zakres i jego granice", w której napisane jest wprost, że jesteś radcą prawnym, a nie doradcą podatkowym, i że przy sprawach wymagających tych kompetencji pracujesz z doradcą podatkowym. Napisałem to ostrożnie — przeczytaj i popraw pod swoją praktykę.</div>
+        </div>
+        <div class="field">
+          <div class="field-label">Struktura</div>
+          <ul class="outline">
+            <li>Zakres i jego granice</li>
+            <li>Dla kogo jest ta usługa</li>
+            <li>Kontrola i postępowanie podatkowe</li>
+            <li>Odwołanie i droga sądowa — WSA, NSA</li>
+            <li>Interpretacja indywidualna</li>
+            <li>Odpowiedzialność zarządu za zaległości</li>
+            <li>Terminy</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Pytania, pod które pisana jest strona</div>
+          <ul class="prompts">
+            <li>co zrobić gdy urząd skarbowy wszczyna kontrolę</li>
+            <li>ile mam czasu na odwołanie od decyzji podatkowej</li>
+            <li>kiedy warto wystąpić o interpretację indywidualną</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <span class="card-name">Odszkodowania</span>
+        <span class="card-count">1 072 słowa · 7 pytań</span>
+        <span class="card-url">/specjalizacje/odszkodowania/</span>
+      </summary>
+      <div class="card-body">
+        <div class="field">
+          <div class="field-label">Struktura</div>
+          <ul class="outline">
+            <li>Rodzaje spraw</li>
+            <li>Zaniżone odszkodowanie z OC</li>
+            <li>Ścieżka postępowania — od zgłoszenia do pozwu</li>
+            <li>Kiedy warto iść do sądu, a kiedy nie</li>
+            <li>Ostrzeżenie przed ugodami ze zrzeczeniem się roszczeń</li>
+            <li>Terminy</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Pytania, pod które pisana jest strona</div>
+          <ul class="prompts">
+            <li>ubezpieczyciel zaniżył odszkodowanie co zrobić</li>
+            <li>czy muszę naprawić samochód żeby dostać odszkodowanie</li>
+            <li>czy przyjęcie wypłaty zamyka drogę do reszty</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Uwaga</div>
+          <div class="field-val">Jedyna wyraźnie konsumencka pozycja w portfolio. Zostaje, bo jest na obecnej stronie, ale nie jest priorytetem — przewaga kancelarii leży po stronie obsługi firm.</div>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <span class="card-name">O mnie</span>
+        <span class="card-count">622 słowa</span>
+        <span class="card-url">/o-mnie/</span>
+      </summary>
+      <div class="card-body">
+        <div class="field">
+          <div class="field-label">Dlaczego to najważniejsza strona</div>
+          <div class="field-val">Asystenci AI cytują podmioty, które potrafią jednoznacznie zidentyfikować. Numer wpisu, izba, uczelnia i lata praktyki to dane weryfikowalne w zewnętrznych rejestrach — i to one decydują o tym, czy kancelaria zostanie wymieniona z nazwy.</div>
+        </div>
+        <div class="field">
+          <div class="field-label">Struktura</div>
+          <ul class="outline">
+            <li>Blok faktów — izba, numer wpisu, wykształcenie, języki</li>
+            <li>Specjalizacje z odesłaniami</li>
+            <li>Doświadczenie w trzech etapach</li>
+            <li>Jak pracuję — trzy zasady na konkretach</li>
+            <li>Współpraca i zasięg</li>
+            <li>Tajemnica zawodowa</li>
+          </ul>
+        </div>
+        <div class="field">
+          <div class="field-label">Zmiana wobec obecnej strony</div>
+          <div class="field-val">Cała strona mówi dziś „Zapewniamy" i „Oferujemy", a sekcja o Tobie mówi „Wykonuję". Ujednoliciłem wszystko na pierwszą osobę — przy kancelarii jednoosobowej to zarówno uczciwsze, jak i skuteczniejsze.</div>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <span class="card-name">Najczęstsze pytania</span>
+        <span class="card-count">750 słów · 13 pytań</span>
+        <span class="card-url">/faq/</span>
+      </summary>
+      <div class="card-body">
+        <div class="field">
+          <div class="field-label">Zakres</div>
+          <div class="field-val">Pytania o współpracę, nie o prawo — te siedzą na stronach specjalizacji. Jak zacząć, jak wygląda rozliczenie, czy pierwsza rozmowa jest płatna, czym różni się radca od adwokata, czy dane są poufne.</div>
+        </div>
+        <div class="field">
+          <div class="field-label">Jedno pytanie wymaga Twojej uwagi</div>
+          <div class="field-val">„Czy kancelaria prowadzi sprawy rodzinne, spadkowe lub karne?" — z odpowiedzią „nie" i propozycją wskazania właściwej kancelarii. To odcina złe zapytania, zanim zajmą Ci czas, i jednoznacznie mówi modelom, czym ta kancelaria nie jest. Pod widoczność działa równie mocno jak to, czym jest.</div>
+        </div>
+      </div>
+    </details>
+
+    <details class="card">
+      <summary>
+        <span class="card-name">Zasięg działania</span>
+        <span class="card-count">709 słów · 5 pytań</span>
+        <span class="card-url">/zasieg/</span>
+      </summary>
+      <div class="card-body">
+        <div class="field">
+          <div class="field-label">Co opisuje</div>
+          <div class="field-val">Model, który już stosujesz — obecna strona mówi o współpracy z adwokatami i radcami z innych regionów. Rozpisałem to na konkret: co robisz zdalnie, kto staje na rozprawie poza regionem, kto odpowiada za sprawę i jak rozliczane są dojazdy.</div>
+        </div>
+        <div class="field">
+          <div class="field-label">Deklaracja wprost</div>
+          <div class="field-val">Strona mówi otwarcie: <em>nie prowadzę oddziałów w innych miastach i nie przedstawiam się jako kancelaria lokalna</em>. Powód w sekcji 4.</div>
+        </div>
+      </div>
+    </details>
+
+  </div>
+</section>
+
+<!-- 4 -->
+<section id="miasta">
+  <div class="sec-head">
+    <div class="sec-kicker">Sekcja 4</div>
+    <h2>Kwestia największych miast</h2>
+    <p>Standardowa recepta agencyjna brzmi: zrobić podstrony pod Warszawę, Kraków, Wrocław i resztę. Nie zrobiłem tego i chcę, żebyś wiedział dlaczego.</p>
+  </div>
+  <div class="callout">
+    <h3>Dlaczego nie ma podstron typu „RODO Warszawa"</h3>
+    <ul class="reasons">
+      <li><span class="rn">01</span>Google klasyfikuje takie strony jako <em>doorway pages</em> i zwalcza je wprost. To nie jest szara strefa — ryzyko dotyczy widoczności całej domeny, nie tylko tych podstron.</li>
+      <li><span class="rn">02</span>W asystentach AI to nie działa nawet gdyby było bezpieczne. Modele nie liczą adresów, tylko sprawdzają spójność sygnałów. Kancelaria deklarująca obecność w dziesięciu miastach bez adresu w żadnym z nich wypada mniej wiarygodnie, nie bardziej.</li>
+      <li><span class="rn">03</span>Sugerowanie biura tam, gdzie go nie ma, to informacja wprowadzająca w błąd. To Twoja licencja zawodowa i Twoja ocena — ale nie chcę, żebyś podejmował ją nieświadomie.</li>
+    </ul>
+  </div>
+  <p style="margin-top:24px"><strong>Zamiast tego:</strong> jedna strona <code>/zasieg/</code> opisująca faktyczny model pracy, plus dziewięć stron specjalizacji napisanych bez zawężania do miasta. Audytu RODO ani rejestracji znaku towarowego nikt nie szuka po kodzie pocztowym — te usługi wygrywa się kompetencją, a strony pisane pod nie przyciągają ruch z całego kraju bez ani jednej sztucznej podstrony.</p>
+  <p>Strony miejskie mają sens dopiero wtedy, gdy stoi za nimi realny adres albo oryginalna treść o lokalnej praktyce — na przykład o specyfice konkretnego sądu gospodarczego. To wymagałoby Twojego wkładu merytorycznego i proponuję wrócić do tego po pierwszych wynikach.</p>
+</section>
+
+<!-- 5 -->
+<section id="weryfikacja">
+  <div class="sec-head">
+    <div class="sec-kicker">Sekcja 5</div>
+    <h2>Do weryfikacji merytorycznej</h2>
+    <p>Terminy ustawowe wpisałem. Opłaty urzędowe i wszystko, co zmienia się rozporządzeniami, zostawiłem jako znaczniki — na stronie kancelarii błędna kwota to nie literówka.</p>
+  </div>
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr><th>Obszar</th><th>Co wymaga potwierdzenia</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="area">RODO</td>
+          <td class="items">Progi kar administracyjnych, termin 72 godzin, termin miesiąca na odpowiedź osobie, trzy przesłanki obowiązkowego IOD, odrębny limit dla sektora publicznego</td>
+        </tr>
+        <tr>
+          <td class="area">Własność<br>intelektualna</td>
+          <td class="items"><span class="annot">opłaty UPRP</span> <span class="annot">opłaty EUIPO</span> okres sprzeciwowy, czas trwania ochrony, forma pisemna przy przeniesieniu praw, właściwość sądów IP</td>
+        </tr>
+        <tr>
+          <td class="area">Windykacja</td>
+          <td class="items"><span class="annot">tabela opłat od pozwu</span> <span class="annot">opłata w EPU</span> <span class="annot">progi rekompensaty</span> wysokość odsetek w transakcjach handlowych, terminy przedawnienia</td>
+        </tr>
+        <tr>
+          <td class="area">Prawo spółek</td>
+          <td class="items"><span class="annot">opłaty KRS i S24</span> <span class="annot">MSiG</span> <span class="annot">stawka PCC</span> ograniczenia wzorca S24, forma zbycia udziałów, obowiązki CRBR</td>
+        </tr>
+        <tr>
+          <td class="area">Prawo pracy</td>
+          <td class="items"><span class="annot">siatka okresów wypowiedzenia</span> <span class="annot">progi zwolnień grupowych</span> terminy 21 dni i miesiąca, progi obowiązku regulaminów</td>
+        </tr>
+        <tr>
+          <td class="area">Spory sądowe</td>
+          <td class="items"><span class="annot">opłaty stałe od pozwu</span> opłata za uzasadnienie, zwrot części opłaty przy ugodzie</td>
+        </tr>
+        <tr>
+          <td class="area">Podatki</td>
+          <td class="items"><span class="annot">opłata za interpretację</span> <span class="annot">wpis od skargi do WSA</span> termin wydania interpretacji, przedawnienie zobowiązania, <strong>oraz akceptacja sekcji o granicach kompetencji</strong></td>
+        </tr>
+        <tr>
+          <td class="area">Odszkodowania</td>
+          <td class="items">Zasady wydłużenia terminu wypłaty, termin odpowiedzi na reklamację, przedawnienie przy szkodzie z przestępstwa, zgodność opisów z aktualną linią orzeczniczą</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="callout flag" style="margin-top:24px">
+    <h3>Zasada, którą stosowałem przy pisaniu</h3>
+    <p>Nigdzie nie ma obietnic wyniku, superlatywów ani porównań z innymi kancelariami. Każda strona kończy się adnotacją <em>„stan prawny na dzień"</em>. Jeśli uznasz którykolwiek fragment za zbyt marketingowy — wycinamy go bez dyskusji.</p>
+  </div>
+</section>
+
+<!-- 6 -->
+<section id="dalej">
+  <div class="sec-head">
+    <div class="sec-kicker">Sekcja 6</div>
+    <h2>Co dalej</h2>
+    <p>Treści to około połowa pracy. Reszta to wdrożenie i pomiar — bez tego po pół roku nie da się stwierdzić, czy cokolwiek zadziałało.</p>
+  </div>
+  <div class="next">
+    <div>
+      <div class="when">Krok pierwszy</div>
+      <h3>Twoje dane i weryfikacja</h3>
+      <p>Sekcja 1 i 5. Podmiana adresu w plikach to kilka minut, weryfikacja liczb to jedno posiedzenie z kodeksem.</p>
+    </div>
+    <div>
+      <div class="when">Krok drugi</div>
+      <h3>Pomiar przed publikacją</h3>
+      <p>Lista 25 pytań odpytana w czterech asystentach AI, zanim cokolwiek się zmieni. Bez tego punktu odniesienia późniejsze wyniki nic nie znaczą.</p>
+    </div>
+    <div>
+      <div class="when">Krok trzeci</div>
+      <h3>Wdrożenie</h3>
+      <p>Strony w systemie, dane strukturalne, pełne dane kontaktowe w stopce, wizytówka Google, mapa strony w Search Console.</p>
+    </div>
+    <div>
+      <div class="when">Krok czwarty</div>
+      <h3>Obserwacja</h3>
+      <p>Te same 25 pytań co miesiąc. Efekty w widoczności to kwestia trzech do sześciu miesięcy, nie tygodni.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Dokument roboczy · przygotowany do akceptacji przed publikacją<br>
+  Żadna z opisanych treści nie została opublikowana ani nie stanowi informacji handlowej kancelarii.<br>
+  Wszystkie dane merytoryczne wymagają potwierdzenia przez radcę prawnego przed udostępnieniem publicznym.
+</footer>
+
+</main>
+</div>
+</div>
