@@ -1,0 +1,95 @@
+{
+  "_uwaga": "Do wklejenia w <head> strony glownej. Pola w [NAWIASACH] do uzupelnienia.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["LegalService", "ProfessionalService"],
+      "@id": "https://www.kancelariagajewski.pl/#kancelaria",
+      "name": "Kancelaria Radcy Prawnego Adrian Gajewski",
+      "url": "https://www.kancelariagajewski.pl/",
+      "email": "sekretariat@kancelariagajewski.pl",
+      "telephone": "+48882455035",
+      "taxID": "[NIP]",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[ULICA I NUMER]",
+        "addressLocality": "[MIASTO]",
+        "postalCode": "[KOD]",
+        "addressRegion": "śląskie",
+        "addressCountry": "PL"
+      },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "województwo śląskie" },
+        { "@type": "Country", "name": "Polska" }
+      ],
+      "availableLanguage": ["pl", "en"],
+      "founder": { "@id": "https://www.kancelariagajewski.pl/#adrian-gajewski" },
+      "employee": { "@id": "https://www.kancelariagajewski.pl/#adrian-gajewski" },
+      "knowsAbout": [
+        "ochrona danych osobowych",
+        "RODO",
+        "prawo własności intelektualnej",
+        "znaki towarowe",
+        "prawo spółek",
+        "windykacja należności",
+        "prawo pracy",
+        "prawo gospodarcze"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Specjalizacje",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ochrona danych osobowych (RODO)", "url": "https://www.kancelariagajewski.pl/specjalizacje/ochrona-danych-osobowych/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Prawo własności intelektualnej", "url": "https://www.kancelariagajewski.pl/specjalizacje/prawo-wlasnosci-intelektualnej/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Windykacja należności", "url": "https://www.kancelariagajewski.pl/specjalizacje/windykacja-naleznosci/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Prawo spółek", "url": "https://www.kancelariagajewski.pl/specjalizacje/prawo-spolek/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Obsługa prawna przedsiębiorców", "url": "https://www.kancelariagajewski.pl/specjalizacje/obsluga-prawna-firm/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Prawo pracy", "url": "https://www.kancelariagajewski.pl/specjalizacje/prawo-pracy/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Podatki", "url": "https://www.kancelariagajewski.pl/specjalizacje/podatki/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Spory sądowe", "url": "https://www.kancelariagajewski.pl/specjalizacje/spory-sadowe/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Odszkodowania", "url": "https://www.kancelariagajewski.pl/specjalizacje/odszkodowania/" } }
+        ]
+      }
+    },
+    {
+      "@type": ["Person", "Attorney"],
+      "@id": "https://www.kancelariagajewski.pl/#adrian-gajewski",
+      "name": "Adrian Gajewski",
+      "givenName": "Adrian",
+      "familyName": "Gajewski",
+      "jobTitle": "radca prawny",
+      "url": "https://www.kancelariagajewski.pl/o-mnie/",
+      "email": "sekretariat@kancelariagajewski.pl",
+      "telephone": "+48882455035",
+      "worksFor": { "@id": "https://www.kancelariagajewski.pl/#kancelaria" },
+      "knowsLanguage": ["pl", "en"],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Uniwersytet Łódzki, Wydział Prawa i Administracji"
+      },
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Okręgowa Izba Radców Prawnych w Opolu",
+        "url": "https://oirp.opole.pl/"
+      },
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "licencja zawodowa",
+        "name": "Radca prawny — wpis nr [NUMER], OIRP Opole"
+      },
+      "knowsAbout": [
+        "prawo gospodarcze",
+        "prawo własności intelektualnej",
+        "ochrona danych osobowych",
+        "prawo pracy",
+        "prawo konsumenckie"
+      ],
+      "sameAs": [
+        "[URL LINKEDIN]",
+        "[URL WIZYTOWKI GOOGLE]",
+        "[URL PROFILU W WYSZUKIWARCE RADCOW KIRP]"
+      ]
+    }
+  ]
+}

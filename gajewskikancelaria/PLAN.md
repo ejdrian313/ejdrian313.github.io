@@ -444,11 +444,31 @@ Teksty w Markdownie — łatwo wkleić do WordPressa, łatwo dać do czytania Ad
 
 ---
 
-## 10. Do decyzji — zaznacz i wracamy do roboty
+## 10. Status decyzji
 
-- [ ] Podaj miasto i adres → podmieniam `[MIASTO]`
-- [ ] "ja" czy "my" (rekomendacja: **ja**)
-- [ ] Fala 1 = te 4 podstrony? Czy zamieniamy którąś?
-- [ ] Czy piszę też `/faq/` i `/o-mnie/` w pierwszej turze (rekomendacja: **tak**, są tanie i to one najmocniej ruszają encję)
-- [ ] Czy podajemy jakiekolwiek widełki cenowe
-- [ ] Boty AI wpuszczone?
+- [x] Boty AI wpuszczone — `robots.txt` gotowy
+- [x] FAQ i "O mnie" — napisane
+- [x] Fala 1: RODO, IP, windykacja, prawo spółek — napisane
+- [x] Pokrycie największych miast — zrealizowane przez `/zasieg/`, patrz `zasieg/DECYZJA-MIASTA.md`
+- [x] "ja" zamiast "my" — zastosowane we wszystkich tekstach
+- [x] Widełki cenowe — nie podajemy (domyślnie, do zmiany na życzenie klienta)
+- [ ] **Miasto i adres** — wciąż brak, `[MIASTO]` do podmiany globalnej
+- [ ] Numer wpisu OIRP, rok wpisu, LinkedIn — do uzupełnienia
+- [ ] Weryfikacja merytoryczna przez Adriana — lista w `DO-WERYFIKACJI.md`
+
+## 11. Stan realizacji
+
+| Plik | Status |
+|---|---|
+| `o-mnie.md` | gotowe |
+| `faq.md` | gotowe (13 pytań) |
+| `specjalizacje/ochrona-danych-osobowych.md` | gotowe |
+| `specjalizacje/prawo-wlasnosci-intelektualnej.md` | gotowe |
+| `specjalizacje/windykacja-naleznosci.md` | gotowe |
+| `specjalizacje/prawo-spolek.md` | gotowe |
+| `zasieg/zasieg.md` | gotowe |
+| `zasieg/DECYZJA-MIASTA.md` | uzasadnienie podejścia do miast |
+| `robots.txt` | gotowe |
+| `schema/organizacja-i-osoba.json` + `README.md` | gotowe |
+| `DO-WERYFIKACJI.md` | lista kontrolna dla klienta |
+| Fala 2: obsługa firm, prawo pracy, podatki, spory, odszkodowania | do napisania |

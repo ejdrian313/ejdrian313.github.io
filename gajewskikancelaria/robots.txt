@@ -1,0 +1,63 @@
+# Do wklejenia w robots.txt na kancelariagajewski.pl
+# Decyzja klienta z dnia [DATA]: boty AI wpuszczone.
+
+# --- Wyszukiwarki klasyczne ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# --- Boty AI: wyszukiwanie i cytowanie na zywo ---
+# Te agenty pobieraja strone, gdy uzytkownik zada pytania w czacie.
+# To one decyduja, czy kancelaria zostanie zacytowana. Kluczowe dla GEO.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# --- Boty AI: zbieranie danych treningowych ---
+# Nie wplywaja bezposrednio na cytowanie w czacie, ale buduja
+# obecnosc encji w przyszlych modelach. Odblokowane zgodnie z decyzja klienta.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# CCBot (Common Crawl) — zrodlo danych dla wielu modeli
+User-agent: CCBot
+Allow: /
+
+# --- Reszta ---
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://www.kancelariagajewski.pl/sitemap_index.xml
