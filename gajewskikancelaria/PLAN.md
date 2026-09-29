@@ -471,6 +471,7 @@ Teksty w Markdownie — łatwo wkleić do WordPressa, łatwo dać do czytania Ad
 | `robots.txt` | gotowe |
 | `schema/organizacja-i-osoba.json` + `README.md` | gotowe |
 | `DO-WERYFIKACJI.md` | lista kontrolna dla klienta |
+| `pomiar/PROMPTY.md` + `baseline.csv` | 25 promptów i arkusz do logowania — **do wykonania przed zmianami** |
 | `specjalizacje/index.md` (hub) | gotowe |
 | `specjalizacje/obsluga-prawna-firm.md` | gotowe |
 | `specjalizacje/prawo-pracy.md` | gotowe |
