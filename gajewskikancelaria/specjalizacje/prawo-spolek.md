@@ -1,6 +1,6 @@
 ---
 url: /specjalizacje/prawo-spolek/
-title: "Prawo spółek — zakładanie i obsługa spółek | [MIASTO]"
+title: "Prawo spółek — zakładanie i obsługa spółek | Częstochowa"
 meta: "Zakładanie spółek, wybór formy prawnej, umowy wspólników, przekształcenia, zmiany w KRS i odpowiedzialność zarządu. Radca prawny Adrian Gajewski."
 schema: Service + FAQPage + BreadcrumbList
 ---

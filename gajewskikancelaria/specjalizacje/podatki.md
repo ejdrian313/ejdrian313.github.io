@@ -1,6 +1,6 @@
 ---
 url: /specjalizacje/podatki/
-title: "Doradztwo prawno-podatkowe dla firm — [MIASTO]"
+title: "Doradztwo prawno-podatkowe dla firm — Częstochowa"
 meta: "Wsparcie przy kontroli i postępowaniu podatkowym, odwołania od decyzji, skargi do WSA, interpretacje indywidualne. Reprezentacja przed organami i sądami administracyjnymi."
 schema: Service + FAQPage + BreadcrumbList
 ---

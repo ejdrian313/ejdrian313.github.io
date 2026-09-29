@@ -1,6 +1,6 @@
 ---
 url: /specjalizacje/prawo-wlasnosci-intelektualnej/
-title: "Prawo własności intelektualnej — znaki towarowe, prawa autorskie | [MIASTO]"
+title: "Prawo własności intelektualnej — znaki towarowe, prawa autorskie | Częstochowa"
 meta: "Rejestracja znaków towarowych w UPRP i EUIPO, umowy przenoszące prawa autorskie, umowy IT, ochrona marki i dochodzenie roszczeń przy naruszeniach."
 schema: Service + FAQPage + BreadcrumbList
 ---

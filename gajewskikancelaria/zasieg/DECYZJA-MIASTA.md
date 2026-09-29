@@ -33,7 +33,7 @@ z adwokatami i radcami prawnymi z innych części Polski zapewniamy reprezentacj
 przed sądami na terenie całego kraju"*).
 
 ### Warstwa 1 — lokalna, prawdziwa
-`[MIASTO]` i Śląsk. Pełny NAP, wizytówka Google, schema `LocalBusiness`.
+`Częstochowa` i Śląsk. Pełny NAP, wizytówka Google, schema `LocalBusiness`.
 Tu walczymy o pozycje lokalne naprawdę i tu jesteśmy nie do podważenia.
 
 ### Warstwa 2 — jedna strona zasięgu: `/zasieg/`

@@ -1,11 +1,11 @@
 ---
 url: /specjalizacje/obsluga-prawna-firm/
-title: "Stała obsługa prawna firm — [MIASTO] | radca prawny Adrian Gajewski"
+title: "Stała obsługa prawna firm — Częstochowa | radca prawny Adrian Gajewski"
 meta: "Bieżąca obsługa prawna przedsiębiorców: umowy, doradztwo, obsługa korporacyjna, RODO. Abonament lub rozliczenie godzinowe. Obsługa również w języku angielskim."
 schema: Service + FAQPage + BreadcrumbList
 ---
 
-# Stała obsługa prawna przedsiębiorców — [MIASTO] i cała Polska
+# Stała obsługa prawna przedsiębiorców — Częstochowa i cała Polska
 
 Prowadzę bieżącą obsługę prawną firm — od jednoosobowych działalności po spółki
 kapitałowe. W praktyce oznacza to jedną osobę, która zna Twój biznes i do której

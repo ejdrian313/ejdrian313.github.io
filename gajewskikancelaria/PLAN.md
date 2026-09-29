@@ -22,7 +22,7 @@ Zanim cokolwiek pójdzie na produkcję, potrzebne od Adriana:
 | 8 | Decyzja: **"ja" czy "my"** w całej komunikacji | spójność encji | wszystkie teksty |
 | 9 | Czy podajemy widełki cenowe gdziekolwiek | struktura sekcji "Koszty" | wszystkie teksty |
 
-W tekstach poniżej miasto oznaczam jako `[MIASTO]` — do podmiany globalnej.
+W tekstach poniżej miasto oznaczam jako `Częstochowa` — do podmiany globalnej.
 
 **Rekomendacja do pkt 8: "ja".** Kancelaria jednoosobowa. Osobista encja (imię + nazwisko + izba + nr wpisu) jest w modelach mocniejsza niż anonimowe "Zapewniamy", a "my" przy jednym radcy wprowadza w błąd co do wielkości zespołu. Wyjątek: tam gdzie realnie działa sieć współpracowników (adwokaci z innych regionów, notariusze, doradcy podatkowi) — wtedy "współpracuję z".
 
@@ -128,9 +128,9 @@ Dla każdej: URL, title, meta description, H2-ki, frazy, prompty AI, FAQ, linki.
 ### 4.1 Ochrona danych osobowych (RODO) — **PRIORYTET 1**
 
 - **URL:** `/specjalizacje/ochrona-danych-osobowych/`
-- **Title:** `Ochrona danych osobowych i RODO dla firm — [MIASTO] | radca prawny Adrian Gajewski` (58 zn.)
+- **Title:** `Ochrona danych osobowych i RODO dla firm — Częstochowa | radca prawny Adrian Gajewski` (58 zn.)
 - **Meta:** `Audyty RODO, dokumentacja, wdrożenia i outsourcing IOD dla firm ze Śląska. Wsparcie przy kontroli UODO i naruszeniach ochrony danych.`
-- **H1:** `Ochrona danych osobowych (RODO) dla firm — [MIASTO] i Śląsk`
+- **H1:** `Ochrona danych osobowych (RODO) dla firm — Częstochowa i Śląsk`
 
 **Dlaczego priorytet:** wysoka marża, powtarzalna usługa abonamentowa (IOD), klienci B2B szukają aktywnie, a konkurencja na Śląsku pisze wyłącznie ogólniki. Do tego Adrian ma to w swoich specjalizacjach z "O mnie" — jest pokrycie kompetencyjne.
 
@@ -145,7 +145,7 @@ Dla każdej: URL, title, meta description, H2-ki, frazy, prompty AI, FAQ, linki.
 8. FAQ
 9. Powiązane
 
-**Frazy:** ochrona danych osobowych [MIASTO], audyt RODO firma, wdrożenie RODO, outsourcing IOD, inspektor ochrony danych dla firmy, dokumentacja RODO, kontrola UODO pomoc prawna, naruszenie ochrony danych zgłoszenie
+**Frazy:** ochrona danych osobowych Częstochowa, audyt RODO firma, wdrożenie RODO, outsourcing IOD, inspektor ochrony danych dla firmy, dokumentacja RODO, kontrola UODO pomoc prawna, naruszenie ochrony danych zgłoszenie
 
 **Prompty AI:**
 - „czy moja firma musi powołać inspektora ochrony danych"
@@ -171,7 +171,7 @@ Dla każdej: URL, title, meta description, H2-ki, frazy, prompty AI, FAQ, linki.
 ### 4.2 Prawo własności intelektualnej — **PRIORYTET 2**
 
 - **URL:** `/specjalizacje/prawo-wlasnosci-intelektualnej/`
-- **Title:** `Prawo własności intelektualnej — znaki towarowe, prawa autorskie | [MIASTO]`
+- **Title:** `Prawo własności intelektualnej — znaki towarowe, prawa autorskie | Częstochowa`
 - **Meta:** `Rejestracja znaków towarowych, umowy przenoszące prawa autorskie, ochrona marki i dochodzenie roszczeń przy naruszeniach IP.`
 - **H1:** `Prawo własności intelektualnej — ochrona marki i praw autorskich`
 
@@ -188,7 +188,7 @@ Dla każdej: URL, title, meta description, H2-ki, frazy, prompty AI, FAQ, linki.
 8. FAQ
 9. Powiązane
 
-**Frazy:** rejestracja znaku towarowego [MIASTO], prawnik znaki towarowe, ochrona nazwy firmy, umowa przeniesienia praw autorskich, prawa autorskie do kodu, naruszenie znaku towarowego, kancelaria IP Śląsk
+**Frazy:** rejestracja znaku towarowego Częstochowa, prawnik znaki towarowe, ochrona nazwy firmy, umowa przeniesienia praw autorskich, prawa autorskie do kodu, naruszenie znaku towarowego, kancelaria IP Śląsk
 
 **Prompty AI:**
 - „jak zastrzec nazwę firmy jako znak towarowy"
@@ -214,7 +214,7 @@ Dla każdej: URL, title, meta description, H2-ki, frazy, prompty AI, FAQ, linki.
 ### 4.3 Windykacja należności — **PRIORYTET 3**
 
 - **URL:** `/specjalizacje/windykacja-naleznosci/`
-- **Title:** `Windykacja należności dla firm — [MIASTO] | radca prawny`
+- **Title:** `Windykacja należności dla firm — Częstochowa | radca prawny`
 - **Meta:** `Windykacja przedsądowa, pozew w EPU, postępowanie egzekucyjne. Odzyskiwanie należności B2B na Śląsku i w całej Polsce.`
 - **H1:** `Windykacja należności — od wezwania do egzekucji komorniczej`
 
@@ -231,7 +231,7 @@ Dla każdej: URL, title, meta description, H2-ki, frazy, prompty AI, FAQ, linki.
 8. FAQ
 9. Powiązane
 
-**Frazy:** windykacja należności [MIASTO], odzyskiwanie długów firma, wezwanie do zapłaty wzór prawnik, nakaz zapłaty EPU, kancelaria windykacyjna Śląsk, niezapłacona faktura co zrobić
+**Frazy:** windykacja należności Częstochowa, odzyskiwanie długów firma, wezwanie do zapłaty wzór prawnik, nakaz zapłaty EPU, kancelaria windykacyjna Śląsk, niezapłacona faktura co zrobić
 
 **Prompty AI:**
 - „co zrobić gdy kontrahent nie płaci faktury"
@@ -257,7 +257,7 @@ Dla każdej: URL, title, meta description, H2-ki, frazy, prompty AI, FAQ, linki.
 ### 4.4 Prawo spółek — **PRIORYTET 4**
 
 - **URL:** `/specjalizacje/prawo-spolek/`
-- **Title:** `Prawo spółek — zakładanie i obsługa spółek | [MIASTO]`
+- **Title:** `Prawo spółek — zakładanie i obsługa spółek | Częstochowa`
 - **Meta:** `Zakładanie spółek, wybór formy prawnej, umowy wspólników, przekształcenia i zmiany w KRS. Doradztwo dla przedsiębiorców.`
 - **H1:** `Prawo spółek — zakładanie, przekształcanie i obsługa korporacyjna`
 
@@ -273,7 +273,7 @@ Dla każdej: URL, title, meta description, H2-ki, frazy, prompty AI, FAQ, linki.
 9. FAQ
 10. Powiązane
 
-**Frazy:** zakładanie spółki [MIASTO], przekształcenie JDG w spółkę z o.o., umowa wspólników, zmiana w KRS prawnik, odpowiedzialność zarządu sp. z o.o., prawnik prawo spółek Śląsk
+**Frazy:** zakładanie spółki Częstochowa, przekształcenie JDG w spółkę z o.o., umowa wspólników, zmiana w KRS prawnik, odpowiedzialność zarządu sp. z o.o., prawnik prawo spółek Śląsk
 
 **Prompty AI:**
 - „jaka forma prawnej działalności jest najlepsza dla mojej firmy"
@@ -299,20 +299,20 @@ Dla każdej: URL, title, meta description, H2-ki, frazy, prompty AI, FAQ, linki.
 ### 4.5 Obsługa prawna przedsiębiorców — *fala 2*
 
 - **URL:** `/specjalizacje/obsluga-prawna-firm/`
-- **Title:** `Stała obsługa prawna firm — [MIASTO] | radca prawny Adrian Gajewski`
-- **H1:** `Stała obsługa prawna przedsiębiorców — [MIASTO] i Śląsk`
+- **Title:** `Stała obsługa prawna firm — Częstochowa | radca prawny Adrian Gajewski`
+- **H1:** `Stała obsługa prawna przedsiębiorców — Częstochowa i Śląsk`
 - Rola: strona-parasol, główny magnes na abonament. Linkuje do wszystkich pozostałych.
 
 **H2:** Dla kogo / Co obejmuje stała obsługa / Modele współpracy (abonament godzinowy, ryczałt, ad hoc) / Jak zaczynamy — pierwsze 30 dni / Obsługa w języku angielskim / Współpraca z notariuszami, doradcami podatkowymi, komornikami / FAQ / Powiązane (linki do 8 pozostałych)
 
-**Prompty AI:** „ile kosztuje stała obsługa prawna firmy", „czy mała firma potrzebuje prawnika na stałe", „radca prawny dla firmy [MIASTO]", „obsługa prawna spółki w języku angielskim"
+**Prompty AI:** „ile kosztuje stała obsługa prawna firmy", „czy mała firma potrzebuje prawnika na stałe", „radca prawny dla firmy Częstochowa", „obsługa prawna spółki w języku angielskim"
 
 ---
 
 ### 4.6 Prawo pracy — *fala 2*
 
 - **URL:** `/specjalizacje/prawo-pracy/`
-- **Title:** `Prawo pracy dla firm i pracowników — [MIASTO]`
+- **Title:** `Prawo pracy dla firm i pracowników — Częstochowa`
 - **H2:** Dla kogo (dwie ścieżki: pracodawca / pracownik) / Dokumentacja pracownicza i regulaminy / Rozwiązanie umowy — tryby i terminy odwołania / Spory przed sądem pracy / Restrukturyzacja zatrudnienia i zwolnienia grupowe / B2B vs umowa o pracę — ryzyko przekwalifikowania / Mobbing i dyskryminacja / Terminy (tabela: 21 dni na odwołanie itd.) / FAQ / Powiązane
 - **Prompty AI:** „ile mam czasu na odwołanie od wypowiedzenia", „czy umowa B2B może zostać uznana za umowę o pracę", „jak przeprowadzić zwolnienia grupowe", „jakie dokumenty pracownicze musi mieć pracodawca"
 - **Uwaga:** dwie grupy docelowe na jednej stronie to kompromis. Jeśli w fali 3 będzie ruch — rozbić na `/prawo-pracy-dla-pracodawcow/` i `/prawo-pracy-dla-pracownikow/`.
@@ -322,7 +322,7 @@ Dla każdej: URL, title, meta description, H2-ki, frazy, prompty AI, FAQ, linki.
 ### 4.7 Podatki — *fala 2*
 
 - **URL:** `/specjalizacje/podatki/`
-- **Title:** `Doradztwo prawno-podatkowe dla firm — [MIASTO]`
+- **Title:** `Doradztwo prawno-podatkowe dla firm — Częstochowa`
 - **H2:** Dla kogo / Zakres (opinie, struktura transakcji, spory) / Kontrola i postępowanie podatkowe — jak przebiega / Odwołanie i skarga do WSA / Interpretacja indywidualna — kiedy się opłaca / Terminy (tabela) / FAQ / Powiązane
 - **Prompty AI:** „co zrobić gdy urząd skarbowy wszczyna kontrolę", „jak uzyskać interpretację indywidualną", „ile mam czasu na odwołanie od decyzji podatkowej", „skarga do WSA na decyzję podatkową"
 - **Uwaga do klienta:** radca prawny może reprezentować przed organami i sądami administracyjnymi; opisujemy zakres ostrożnie, bez wchodzenia w to, co zastrzeżone dla doradców podatkowych. Sekcja o współpracy z doradcą podatkowym — do potwierdzenia przez Adriana.
@@ -332,7 +332,7 @@ Dla każdej: URL, title, meta description, H2-ki, frazy, prompty AI, FAQ, linki.
 ### 4.8 Spory sądowe — *fala 2*
 
 - **URL:** `/specjalizacje/spory-sadowe/`
-- **Title:** `Spory sądowe — reprezentacja w procesach cywilnych i gospodarczych | [MIASTO]`
+- **Title:** `Spory sądowe — reprezentacja w procesach cywilnych i gospodarczych | Częstochowa`
 - **H2:** Dla kogo / Rodzaje spraw (cywilne, gospodarcze, umowne, o zapłatę) / Przebieg procesu krok po kroku z czasami / Zabezpieczenie roszczenia / Mediacja i ugoda — kiedy się opłaca bardziej niż wyrok / Ile trwa i ile kosztuje proces (tabela opłat) / Reprezentacja w całej Polsce dzięki sieci współpracowników / FAQ / Powiązane
 - **Prompty AI:** „ile trwa sprawa cywilna w sądzie", „ile kosztuje pozew", „kto płaci koszty przegranej sprawy", „czy warto iść na mediację zamiast do sądu"
 
@@ -341,7 +341,7 @@ Dla każdej: URL, title, meta description, H2-ki, frazy, prompty AI, FAQ, linki.
 ### 4.9 Odszkodowania — *fala 2*
 
 - **URL:** `/specjalizacje/odszkodowania/`
-- **Title:** `Odszkodowania i zadośćuczynienie — pomoc prawna | [MIASTO]`
+- **Title:** `Odszkodowania i zadośćuczynienie — pomoc prawna | Częstochowa`
 - **H2:** Dla kogo / Rodzaje spraw (komunikacyjne, z ubezpieczeń majątkowych, z tytułu niewykonania umowy) / Zaniżone odszkodowanie z OC — co zrobić / Odwołanie od decyzji ubezpieczyciela / Droga sądowa / Terminy przedawnienia (tabela) / FAQ / Powiązane
 - **Prompty AI:** „ubezpieczyciel zaniżył odszkodowanie co zrobić", „ile mam czasu na odwołanie od decyzji ubezpieczyciela", „jak odwołać się od decyzji o odszkodowaniu", „kiedy przedawnia się roszczenie o odszkodowanie"
 - **Uwaga:** jedyna wyraźnie B2C pozycja w portfolio. Zostaje, bo jest na stronie, ale nie ciągniemy jej w fazie 1 — profil kancelarii to B2B i tam jest przewaga.
@@ -452,7 +452,7 @@ Teksty w Markdownie — łatwo wkleić do WordPressa, łatwo dać do czytania Ad
 - [x] Pokrycie największych miast — zrealizowane przez `/zasieg/`, patrz `zasieg/DECYZJA-MIASTA.md`
 - [x] "ja" zamiast "my" — zastosowane we wszystkich tekstach
 - [x] Widełki cenowe — nie podajemy (domyślnie, do zmiany na życzenie klienta)
-- [ ] **Miasto i adres** — wciąż brak, `[MIASTO]` do podmiany globalnej
+- [ ] **Miasto i adres** — wciąż brak, `Częstochowa` do podmiany globalnej
 - [ ] Numer wpisu OIRP, rok wpisu, LinkedIn — do uzupełnienia
 - [ ] Weryfikacja merytoryczna przez Adriana — lista w `DO-WERYFIKACJI.md`
 
@@ -479,5 +479,5 @@ Teksty w Markdownie — łatwo wkleić do WordPressa, łatwo dać do czytania Ad
 | `specjalizacje/odszkodowania.md` | gotowe |
 
 **Komplet 9 specjalizacji + hub + FAQ + O mnie + zasięg napisany.**
-Pozostaje: podmiana `[MIASTO]` i danych kancelarii, weryfikacja merytoryczna
+Pozostaje: podmiana `Częstochowa` i danych kancelarii, weryfikacja merytoryczna
 (`DO-WERYFIKACJI.md`), wdrożenie w WordPressie, GBP, analityka i baseline promptów.

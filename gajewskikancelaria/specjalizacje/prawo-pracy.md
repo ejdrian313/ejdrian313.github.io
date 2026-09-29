@@ -1,6 +1,6 @@
 ---
 url: /specjalizacje/prawo-pracy/
-title: "Prawo pracy — dla pracodawców i pracowników | [MIASTO]"
+title: "Prawo pracy — dla pracodawców i pracowników | Częstochowa"
 meta: "Dokumentacja pracownicza, regulaminy, rozwiązywanie umów, spory przed sądem pracy, restrukturyzacja zatrudnienia, ryzyko przekwalifikowania umów B2B."
 schema: Service + FAQPage + BreadcrumbList
 ---

@@ -1,13 +1,13 @@
 ---
 url: /o-mnie/
-title: "Adrian Gajewski — radca prawny | [MIASTO]"
+title: "Adrian Gajewski — radca prawny | Częstochowa"
 meta: "Radca prawny Adrian Gajewski. Obsługa prawna przedsiębiorców, RODO, własność intelektualna, prawo spółek i prawo pracy. OIRP Opole. Obsługa w języku polskim i angielskim."
 schema: Person + Attorney
 ---
 
 # Adrian Gajewski — radca prawny
 
-Prowadzę kancelarię radcy prawnego w [MIASTO]. Obsługuję przedsiębiorców — od jednoosobowych działalności po spółki kapitałowe — oraz klientów indywidualnych. Pracuję tak, żeby klient wychodził z rozmowy z decyzją do podjęcia, a nie z listą wątpliwości.
+Prowadzę kancelarię radcy prawnego w Częstochowie. Obsługuję przedsiębiorców — od jednoosobowych działalności po spółki kapitałowe — oraz klientów indywidualnych. Pracuję tak, żeby klient wychodził z rozmowy z decyzją do podjęcia, a nie z listą wątpliwości.
 
 ## Podstawowe informacje
 
@@ -20,7 +20,7 @@ Prowadzę kancelarię radcy prawnego w [MIASTO]. Obsługuję przedsiębiorców �
 | **Wykształcenie** | Wydział Prawa i Administracji Uniwersytetu Łódzkiego |
 | **Aplikacja** | radcowska, OIRP Opole |
 | **Języki** | polski, angielski |
-| **Obszar działania** | [MIASTO] i Śląsk, reprezentacja przed sądami w całej Polsce |
+| **Obszar działania** | Częstochowa i region częstochowski, reprezentacja przed sądami w całej Polsce |
 | **Kontakt** | sekretariat@kancelariagajewski.pl, +48 882 455 035 |
 
 ## Specjalizacje
@@ -55,7 +55,7 @@ Nie prowadzę spraw rodzinnych, spadkowych ani karnych. Jeśli szukasz pomocy w 
 
 ## Współpraca i zasięg
 
-Działam przede wszystkim w [MIASTO] i na terenie Śląska. Reprezentację przed sądami w pozostałej części kraju zapewniam dzięki stałej współpracy z adwokatami i radcami prawnymi z innych regionów — dla klienta oznacza to jeden punkt kontaktu i jedną osobę odpowiedzialną za sprawę, niezależnie od tego, przed którym sądem się toczy. Szczegóły opisałem na stronie [zasięg działania](/zasieg/).
+Działam przede wszystkim w Częstochowie i okolicach — obejmuje to powiaty częstochowski, kłobucki, myszkowski i lubliniecki oraz północną część województwa śląskiego. Reprezentację przed sądami w pozostałej części kraju zapewniam dzięki stałej współpracy z adwokatami i radcami prawnymi z innych regionów — dla klienta oznacza to jeden punkt kontaktu i jedną osobę odpowiedzialną za sprawę, niezależnie od tego, przed którym sądem się toczy. Szczegóły opisałem na stronie [zasięg działania](/zasieg/).
 
 Przy sprawach wymagających kompetencji spoza mojego zakresu współpracuję z notariuszami, komornikami, doradcami podatkowymi, księgowymi, rzeczoznawcami majątkowymi i tłumaczami przysięgłymi.
 
@@ -67,6 +67,6 @@ Wszystko, czego dowiaduję się w związku ze świadczeniem pomocy prawnej, obj�
 
 ## Kontakt
 
-sekretariat@kancelariagajewski.pl · +48 882 455 035 · [MIASTO], [ADRES]
+sekretariat@kancelariagajewski.pl · +48 882 455 035 · ul. Hutników 4, 42-202 Częstochowa
 
 [CTA: formularz kontaktowy]

@@ -1,6 +1,6 @@
 ---
 url: /specjalizacje/odszkodowania/
-title: "Odszkodowania i zadośćuczynienie — pomoc prawna | [MIASTO]"
+title: "Odszkodowania i zadośćuczynienie — pomoc prawna | Częstochowa"
 meta: "Zaniżone odszkodowanie z OC, odwołania od decyzji ubezpieczyciela, odszkodowania z umów i szkody w mieniu firmy. Reprezentacja przed ubezpieczycielem i w sądzie."
 schema: Service + FAQPage + BreadcrumbList
 ---

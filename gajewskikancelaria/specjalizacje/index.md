@@ -1,6 +1,6 @@
 ---
 url: /specjalizacje/
-title: "Specjalizacje — obsługa prawna firm i klientów indywidualnych | [MIASTO]"
+title: "Specjalizacje — obsługa prawna firm i klientów indywidualnych | Częstochowa"
 meta: "Obsługa prawna przedsiębiorców, RODO, własność intelektualna, prawo spółek, windykacja, prawo pracy, podatki, spory sądowe i odszkodowania."
 schema: CollectionPage + BreadcrumbList
 ---

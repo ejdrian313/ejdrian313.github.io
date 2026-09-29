@@ -13,13 +13,14 @@
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "[ULICA I NUMER]",
-        "addressLocality": "[MIASTO]",
-        "postalCode": "[KOD]",
+        "streetAddress": "ul. Hutników 4",
+        "addressLocality": "Częstochowa",
+        "postalCode": "42-202",
         "addressRegion": "śląskie",
         "addressCountry": "PL"
       },
       "areaServed": [
+        { "@type": "City", "name": "Częstochowa" },
         { "@type": "AdministrativeArea", "name": "województwo śląskie" },
         { "@type": "Country", "name": "Polska" }
       ],

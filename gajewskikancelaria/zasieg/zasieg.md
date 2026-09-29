@@ -1,19 +1,19 @@
 ---
 url: /zasieg/
 title: "Zasięg działania — obsługa prawna w całej Polsce | Adrian Gajewski"
-meta: "Kancelaria w [MIASTO]. Doradztwo prawne zdalnie dla klientów z całej Polski, reprezentacja przed sądami w każdym mieście dzięki sieci współpracujących pełnomocników."
+meta: "Kancelaria w Częstochowie. Doradztwo prawne zdalnie dla klientów z całej Polski, reprezentacja przed sądami w każdym mieście dzięki sieci współpracujących pełnomocników."
 schema: Service + FAQPage + BreadcrumbList
 ---
 
-# Zasięg działania — [MIASTO], Śląsk i cała Polska
+# Zasięg działania — Częstochowa, region i cała Polska
 
-Kancelaria ma siedzibę w [MIASTO]. Nie oznacza to, że obsługuję wyłącznie klientów
+Kancelaria ma siedzibę w Częstochowie. Nie oznacza to, że obsługuję wyłącznie klientów
 z regionu — przeciwnie, większość pracy prawnika przy obsłudze firm da się dziś
 wykonać niezależnie od tego, gdzie siedzi klient. Poniżej opisuję dokładnie, jak
 to wygląda w praktyce, żeby nie było niedomówień.
 
 **W skrócie:**
-- Biuro: [MIASTO]. Spotkania osobiste — na miejscu.
+- Biuro: Częstochowa. Spotkania osobiste — na miejscu.
 - Doradztwo, umowy, RODO, własność intelektualna, obsługa korporacyjna — **w pełni zdalnie, w całej Polsce**.
 - Reprezentacja przed sądem poza regionem — przez stałą sieć współpracujących adwokatów i radców prawnych, przy zachowaniu jednego punktu kontaktu.
 - Nie mam oddziałów w innych miastach i nie twierdzę, że mam.
@@ -57,8 +57,10 @@ nigdy nie jest tak, że klient dowiaduje się o dodatkowym pełnomocniku z faktu
 
 ## Regiony, z których obsługuję klientów
 
-Podstawowy obszar działania to [MIASTO] i województwo śląskie — tu odbywają się
-spotkania osobiste i tu prowadzę sprawy przed sądami we własnym imieniu.
+Podstawowy obszar działania to Częstochowa i okolice — powiaty częstochowski, kłobucki,
+myszkowski, lubliniecki i zawierciański oraz północna część województwa śląskiego. Tu
+odbywają się spotkania osobiste i tu prowadzę sprawy przed Sądem Rejonowym i Okręgowym
+w Częstochowie we własnym imieniu.
 
 Klientów spoza regionu — w tym z Warszawy, Krakowa, Wrocławia, Poznania, Trójmiasta,
 Łodzi i Szczecina — obsługuję w modelu zdalnym opisanym wyżej, a reprezentację przed
@@ -80,14 +82,14 @@ za sprawę i kontakt z klientem pozostają po mojej stronie.
 **Czy muszę przyjechać do biura?**
 Nie. Większość spraw prowadzę bez ani jednego spotkania osobistego — rozmowy przez
 wideokonferencję, dokumenty elektronicznie, podpis kwalifikowany. Jeśli wolisz
-spotkanie, zapraszam do biura w [MIASTO].
+spotkanie, zapraszam do biura w Częstochowie.
 
 **Czy obsługa zdalna kosztuje tyle samo?**
 Tak. Stawki nie zależą od lokalizacji klienta. Jedyny dodatkowy koszt może dotyczyć
 dojazdu na rozprawę poza regionem — ustalany z góry, przed podjęciem sprawy.
 
 **Czy macie oddziały w innych miastach?**
-Nie. Kancelaria ma jedno biuro, w [MIASTO]. Obsługę klientów z innych regionów
+Nie. Kancelaria ma jedno biuro, w Częstochowie. Obsługę klientów z innych regionów
 prowadzę zdalnie, a reprezentację przed tamtejszymi sądami — we współpracy z
 pełnomocnikami z tych miast.
 

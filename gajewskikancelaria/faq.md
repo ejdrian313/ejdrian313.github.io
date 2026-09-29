@@ -21,9 +21,9 @@ Krótka rozmowa wstępna, podczas której ustalamy, czego sprawa dotyczy i czy m
 
 Stosuję trzy modele. **Rozliczenie godzinowe** — przy sprawach o nieprzewidywalnym nakładzie pracy, z bieżącym raportowaniem wykorzystanych godzin. **Wynagrodzenie ryczałtowe** — stała kwota za konkretne zadanie o określonym zakresie, na przykład rejestrację spółki, audyt RODO czy przygotowanie umowy. **Abonament** — miesięczna kwota za określoną pulę godzin przy stałej obsłudze. Model i stawkę ustalamy przed rozpoczęciem pracy, na piśmie.
 
-## Czy kancelaria działa tylko na Śląsku?
+## Czy kancelaria działa tylko w Częstochowie?
 
-Nie. Biuro mieści się w [MIASTO], a doradztwo prawne prowadzę dla klientów z całej Polski — w tej części pracy lokalizacja klienta nie ma żadnego znaczenia. Reprezentację przed sądami poza regionem zapewniam dzięki stałej współpracy z adwokatami i radcami prawnymi z innych części kraju. Więcej o tym na stronie [zasięg działania](/zasieg/).
+Nie. Biuro mieści się w Częstochowie i stamtąd obsługuję klientów z Częstochowy oraz okolicznych powiatów, ale doradztwo prawne prowadzę dla klientów z całej Polski — w tej części pracy lokalizacja klienta nie ma żadnego znaczenia. Reprezentację przed sądami poza regionem zapewniam dzięki stałej współpracy z adwokatami i radcami prawnymi z innych części kraju. Więcej o tym na stronie [zasięg działania](/zasieg/).
 
 ## Czy możliwa jest współpraca w pełni zdalna?
 

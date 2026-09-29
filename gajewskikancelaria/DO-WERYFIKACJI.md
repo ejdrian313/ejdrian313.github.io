@@ -5,8 +5,8 @@ lub termin. Wszystkie wymagają potwierdzenia stanu prawnego na dzień publikacj
 Poniżej pełna lista w jednym miejscu.
 
 ## Dane kancelarii (blokują publikację)
-- [ ] `[MIASTO]` — miasto siedziby
-- [ ] `[ADRES]` — pełny adres z kodem pocztowym
+- [ ] `Częstochowa` — miasto siedziby
+- [ ] `ul. Hutników 4` — pełny adres z kodem pocztowym
 - [ ] `[NUMER]` — numer wpisu na listę radców prawnych OIRP Opole
 - [ ] `[ROK]` — rok wpisu na listę oraz rok rozpoczęcia własnej praktyki
 - [ ] `[BRANŻE]` — branże spółek, w których pracował in-house (bez nazw, jeśli NDA)
@@ -94,6 +94,35 @@ Poniżej pełna lista w jednym miejscu.
 - [ ] Czy akceptuje treść o tajemnicy zawodowej
 - [ ] Czy akceptuje odesłanie do innych kancelarii w sprawach spoza zakresu
 - [ ] Czy akceptuje opis modelu współpracy z pełnomocnikami z innych miast (`/zasieg/`)
+
+## Google Business Profile — do poprawienia przez Adriana
+Stan zastany (zrzut z 29.09):
+- [ ] **Kategoria główna: „Usługi prawne" → zmienić na „Radca prawny"** — kategoria główna
+      to jeden z najmocniejszych czynników rankingu lokalnego; „Usługi prawne" jest zbyt
+      ogólna i konkuruje z komornikami, doradcami i firmami windykacyjnymi
+- [ ] **Godziny: „Czynne całą dobę" → realne godziny pracy** — 24/7 przy kancelarii
+      jednoosobowej wygląda na ustawienie domyślne, nie na ofertę
+- [ ] **Dodać adres ul. Hutników 4** i przejść weryfikację — profil bez adresu
+      (tylko „obsługiwane obszary") ma słabszą pozycję lokalną niż profil z adresem
+- [ ] Obszary obsługiwane: **zostawić Częstochowę i dodać okoliczne powiaty**,
+      NIE ustawiać całej Polski (uzasadnienie niżej)
+- [ ] Uzupełnić: opis firmy, zdjęcia, atrybuty (obsługa w j. angielskim, konsultacje zdalne)
+- [ ] Podlinkować profil w `sameAs` w danych strukturalnych
+
+## Zmiana wprowadzona bez pytania — do akceptacji
+Obecna strona mówi „działamy przede wszystkim na terenie Śląska". Przy biurze
+w Częstochowie zastąpiłem to określeniem **„Częstochowa i region"** z wyliczeniem
+powiatów: częstochowski, kłobucki, myszkowski, lubliniecki, zawierciański.
+
+Powód: Częstochowa leży w województwie śląskim administracyjnie, ale historycznie
+i tożsamościowo nie jest Śląskiem, a mieszkańcy regionu tak o sobie nie mówią. Nikt
+w okolicy nie wpisuje w wyszukiwarkę „radca prawny Śląsk" — wpisuje „radca prawny
+Częstochowa", „prawnik Kłobuck", „kancelaria Myszków". Nazwy powiatów to realne frazy,
+„Śląsk" to fraza pusta i dla Częstochowy myląca.
+
+Jeśli Adrian świadomie celuje w aglomerację górnośląską (Katowice, Gliwice, Sosnowiec) —
+wracamy do „Śląska", ale wtedy trzeba to powiedzieć wprost, bo to inny rynek i inna
+konkurencja.
 
 ## Uwaga ogólna
 Nigdzie nie użyłem obietnic wyniku, superlatywów porównawczych ani sformułowań

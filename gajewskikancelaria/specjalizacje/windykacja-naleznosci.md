@@ -1,6 +1,6 @@
 ---
 url: /specjalizacje/windykacja-naleznosci/
-title: "Windykacja należności dla firm — [MIASTO] | radca prawny"
+title: "Windykacja należności dla firm — Częstochowa | radca prawny"
 meta: "Windykacja przedsądowa, pozew o zapłatę, nakaz zapłaty i egzekucja komornicza. Odzyskiwanie należności B2B. Radca prawny Adrian Gajewski."
 schema: Service + FAQPage + BreadcrumbList
 ---

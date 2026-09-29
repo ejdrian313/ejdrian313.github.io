@@ -1,6 +1,6 @@
 ---
 url: /specjalizacje/spory-sadowe/
-title: "Spory sądowe — procesy cywilne i gospodarcze | [MIASTO]"
+title: "Spory sądowe — procesy cywilne i gospodarcze | Częstochowa"
 meta: "Reprezentacja w sporach cywilnych i gospodarczych, zabezpieczenie roszczeń, mediacja i negocjacje ugodowe. Reprezentacja przed sądami w całej Polsce."
 schema: Service + FAQPage + BreadcrumbList
 ---

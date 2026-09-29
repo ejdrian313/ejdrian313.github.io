@@ -1,11 +1,11 @@
 ---
 url: /specjalizacje/ochrona-danych-osobowych/
-title: "Ochrona danych osobowych i RODO dla firm — [MIASTO] | radca prawny"
+title: "Ochrona danych osobowych i RODO dla firm — Częstochowa | radca prawny"
 meta: "Audyty RODO, dokumentacja, wdrożenia i outsourcing IOD dla firm. Wsparcie przy naruszeniach ochrony danych i kontroli UODO. Radca prawny Adrian Gajewski."
 schema: Service + FAQPage + BreadcrumbList
 ---
 
-# Ochrona danych osobowych (RODO) dla firm — [MIASTO] i cała Polska
+# Ochrona danych osobowych (RODO) dla firm — Częstochowa i cała Polska
 
 Prowadzę audyty RODO, przygotowuję dokumentację, wdrażam procedury i pełnię funkcję zewnętrznego wsparcia dla Inspektorów Ochrony Danych. Pomagam też wtedy, gdy coś już poszło nie tak — przy naruszeniu ochrony danych i przy kontroli Prezesa UODO.
 
